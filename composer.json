@@ -7,7 +7,7 @@
       "email": "imamerkhanov@bars-open.ru"
     }
   ],
-  "version":"1.0.1",
+  "version":"1.0.2",
   "require": {
     "yiisoft/yii2-httpclient": "~2.0.0",
     "php":">=5.4.0"

@@ -10,3 +10,8 @@ Ring extension Change Log
 -----------------------
 
 - Bug fix.
+
+1.0.2, October 30, 2016
+-----------------------
+
+- Fix readme.

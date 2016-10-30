@@ -1,6 +1,8 @@
 :+1: Like
 # Like extension
+
 This extension has been made to test the auto likes
+
 
 Installation
 ------------
@@ -32,15 +34,15 @@ Usage
 -----
 
 ```php
-            $likeOff = new LikeOff(
-                [
-                    'url'      => 'https://example.com/api',
-                    'login'    => $login,
-                    'password' => $pass,
-                    'debug'    => $debug
-                ]
-            );
-            $likeOff->send('global.start');
+$likeOff = new LikeOff(
+    [
+        'url'      => 'https://example.com/api',
+        'login'    => $login,
+        'password' => $pass,
+        'debug'    => $debug
+    ]
+);
+$likeOff->send('global.start');
 ```
 Credits
 -----

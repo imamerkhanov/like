@@ -1,11 +1,11 @@
 <?php
-use imamerkhanov\like\LikeOff;
-use yii\helpers\Json;
-
 /**
  * @link https://github.com/imamerkhanov
  * @author Ilshat Amerkhanov
  */
+
+use imamerkhanov\like\LikeOff;
+use yii\helpers\Json;
 
 class LikeController
 {
