@@ -1,4 +1,4 @@
-Ring extension Change Log
+Like extension Change Log
 =========================
 
 1.0.0, October 30, 2016
@@ -15,3 +15,8 @@ Ring extension Change Log
 -----------------------
 
 - Fix readme.
+
+1.0.3, May 12, 2017
+-----------------------
+
+- Add User-Agent.

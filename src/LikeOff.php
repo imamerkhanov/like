@@ -59,7 +59,11 @@ class LikeOff extends \yii\base\Component
         $params['mobile'] = 1;
         $params['method'] = $method;
 
-        $this->response = $this->client->post('?m=' . $method, $params)->setCookies($this->cookies)->send();
+        $this->response = $this->client
+            ->post('?m=' . $method, $params)
+            ->setHeaders(['User-Agent'=>'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'])
+            ->setCookies($this->cookies)
+            ->send();
 
         if ($this->debug)
             echo $this->url . '?m=' . $method . "\n" . $this->response->content . "\n\n";
