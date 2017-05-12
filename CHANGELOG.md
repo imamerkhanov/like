@@ -20,3 +20,9 @@ Like extension Change Log
 -----------------------
 
 - Add User-Agent.
+
+
+1.0.4, May 12, 2017
+-----------------------
+
+- fix
